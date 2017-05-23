@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         viewPager = (ViewPager) findViewById(R.id.viewPager);
         viewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager());
         viewPagerAdapter.addFragments(new accueil(), "Acueil");
-        viewPagerAdapter.addFragments(new Contact(), "Contact");
+        viewPagerAdapter.addFragments(new Contact(), "Email");
         viewPagerAdapter.addFragments(new Pendu(), "Pendu");
         viewPagerAdapter.addFragments(new CalcFragment(), "Calculatrice");
         viewPagerAdapter.addFragments(new Github(), "Github");
