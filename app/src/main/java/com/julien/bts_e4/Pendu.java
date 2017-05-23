@@ -14,9 +14,9 @@ import android.widget.Button;
  * A simple {@link Fragment} subclass.
  */
 public class Pendu extends Fragment {
-    private Button jeuPendu;
-    private Button jeupcc;
-    private View rootViews;
+    Button jeuPendu;
+
+    View rootViews;
 
     public Pendu() {
         // Required empty public constructor
@@ -27,28 +27,22 @@ public class Pendu extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        rootViews = inflater.inflate(R.layout.fragment_pendu, container, false);
-        Game();
+        rootViews = inflater.inflate(R.layout.jeux, container, false);
+        game();
         return rootViews;
     }
 
-    public void Game(){
-        jeuPendu  =(Button) jeuPendu.findViewById(R.id.jeuPendu);
-        jeupcc = (Button) jeupcc.findViewById(R.id.jeupcc);
+
+    public void game() {
+        jeuPendu = (Button) rootViews.findViewById(R.id.btn_pendu);
         jeuPendu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(),PenduActivity.class);
+                Intent intent = new Intent(getActivity(), PenduActivity.class);
                 startActivity(intent);
             }
         });
 
-        jeupcc.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent =  new Intent(getActivity(), PccActivity.class);
-                startActivity(intent);
-            }
-        });
+
     }
 }
