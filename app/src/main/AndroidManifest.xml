@@ -17,6 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".GithubListActivity"></activity>
+        <activity android:name=".PenduActivity"></activity>
+
     </application>
 
 </manifest>
