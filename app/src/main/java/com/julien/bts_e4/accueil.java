@@ -15,7 +15,7 @@ public class accueil extends Fragment {
 
 
     public accueil() {
-        // Required empty public constructor
+        // constructeur public vide obligatoire
     }
 
 

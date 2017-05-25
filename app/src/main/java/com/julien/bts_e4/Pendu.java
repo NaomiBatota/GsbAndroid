@@ -19,7 +19,7 @@ public class Pendu extends Fragment {
     View rootViews;
 
     public Pendu() {
-        // Required empty public constructor
+        // constructeur public vide obligatoire
     }
 
 
@@ -35,9 +35,11 @@ public class Pendu extends Fragment {
 
     public void game() {
         jeuPendu = (Button) rootViews.findViewById(R.id.btn_pendu);
+        // Création de la logique d'un bouton
         jeuPendu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                // Demarrage d'une nouvelle Activity qui a été déclaré dans le Manifest
                 Intent intent = new Intent(getActivity(), PenduActivity.class);
                 startActivity(intent);
             }

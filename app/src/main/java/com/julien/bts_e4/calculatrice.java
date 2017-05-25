@@ -26,5 +26,4 @@ public class calculatrice {
     {
         return a / b;
     }
-} {
 }

@@ -27,7 +27,7 @@ public class Contact extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_away, container, false);
-        // Inflate the layout for this fragment
+        // Collection d'emails
         String[] email = {
                 "julienhivert.tt@gmail.com",
                 "petervalery211@gmail.com",
@@ -36,15 +36,7 @@ public class Contact extends Fragment {
                 "jose.santiago42400@gmail.com",
                 "jordanjayol42@gmail.com",
                 "kelignoel42@gmail.com",
-                "jimmyseux@gmail.com",
-                "Afternoon",
-                "Sunset",
-                "Supper Time",
-                "Lunch",
-                "Afternoon",
-                "Supper Time",
-                "Lovely Night",
-                "Chilly Dreams"
+                "jimmyseux@gmail.com"
         };
 
         ListView lv = (ListView) view.findViewById(R.id.listView2);

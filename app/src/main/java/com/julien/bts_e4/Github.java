@@ -17,7 +17,7 @@ public class Github extends Fragment {
     private Button btn;
     private View rootViews;
     public Github() {
-        // Required empty public constructor
+        // constructeur public vide obligatoire
     }
 
 

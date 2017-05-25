@@ -15,13 +15,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        // Recup de la toolBar
         toolbar = (Toolbar) findViewById(R.id.toolBar);
         setSupportActionBar(toolbar);
-
+        //Recup di tabLayout et du viewPager
         tabLayout = (TabLayout) findViewById(R.id.tabLayout);
         viewPager = (ViewPager) findViewById(R.id.viewPager);
         viewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager());
+        // Definition des Fragments
         viewPagerAdapter.addFragments(new accueil(), "Acueil");
         viewPagerAdapter.addFragments(new Contact(), "Email");
         viewPagerAdapter.addFragments(new Pendu(), "Pendu");
