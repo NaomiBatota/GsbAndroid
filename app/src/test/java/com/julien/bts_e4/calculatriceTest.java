@@ -5,9 +5,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-/**
- * Created by jose on 24/05/17.
- */
+
 public class CalculatriceTest {
     @Before
     public void setUp() throws Exception {
