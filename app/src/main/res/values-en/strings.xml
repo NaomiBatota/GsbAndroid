@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">GSB - Event</string>
+
+    <string name="send">To send</string>
+    <string name="rejouer">Replay</string>
+    <string name="gmail">Here are your Gmail contacts!</string>
+    <string name="github">Here are your Github contacts!</string>
+
+    <string-array name="Test">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="gsb_tittle">Galaxy Swiss Bourdin</string>
+    <string name="Devs_Team">Application développé par Antoine Aroujo Julien Hivert et Yannick Morreau</string>
+</resources>
