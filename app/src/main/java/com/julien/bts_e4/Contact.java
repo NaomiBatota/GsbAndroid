@@ -29,6 +29,8 @@ public class Contact extends Fragment {
         View view = inflater.inflate(R.layout.fragment_away, container, false);
         // Collection d'emails
         String[] email = {
+                "sarah.galichon@gmail.com",
+                "batotanaomi@gmail.com",
                 "julienhivert.tt@gmail.com",
                 "petervalery211@gmail.com",
                 "dimitriguira@gmail.com",

@@ -1,8 +1,9 @@
 package com.julien.bts_e4;
+
+import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
@@ -23,10 +24,10 @@ public class MainActivity extends AppCompatActivity {
         viewPager = (ViewPager) findViewById(R.id.viewPager);
         viewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager());
         // Definition des Fragments
-        viewPagerAdapter.addFragments(new accueil(), "Acueil");
-        viewPagerAdapter.addFragments(new Contact(), "Email");
-        viewPagerAdapter.addFragments(new Pendu(), "Pendu");
-        viewPagerAdapter.addFragments(new CalcFragment(), "Calculatrice");
+        viewPagerAdapter.addFragments(new accueil(), "Accueil");
+        viewPagerAdapter.addFragments(new Contact(), "Mail");
+        viewPagerAdapter.addFragments(new Pendu(), "Jeu");
+        viewPagerAdapter.addFragments(new CalcFragment(), "Calcul");
         viewPagerAdapter.addFragments(new Github(), "Github");
 
         viewPager.setAdapter(viewPagerAdapter);

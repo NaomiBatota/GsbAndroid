@@ -9,32 +9,35 @@
         android:layout_height="match_parent">
 
         <ImageView
+            android:id="@+id/imageView5"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            app:srcCompat="@drawable/seventh"
-            android:id="@+id/imageView5"
-            android:layout_alignParentTop="true"
+            android:layout_below="@+id/textView4"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="22dp" />
+            android:layout_marginTop="77dp"
+            app:srcCompat="@drawable/seventh" />
 
         <Button
-            android:text="Jeu du Pendu"
+            android:id="@+id/btn_pendu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/btn_pendu"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="75dp"
+            android:text="Jeu du Pendu"
             android:layout_below="@+id/imageView5"
             android:layout_centerHorizontal="true" />
 
-        <ImageView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            app:srcCompat="@drawable/pcc"
-            android:layout_marginTop="21dp"
-            android:id="@+id/imageView6"
-
-            android:layout_alignLeft="@+id/imageView5"
-            android:layout_alignStart="@+id/imageView5" />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="37dp"
+            android:text="N'attendez pas et venez jouer, cliquez ! "
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
 
     </RelativeLayout>

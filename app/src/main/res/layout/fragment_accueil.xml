@@ -15,9 +15,10 @@
             android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/GSB_ML"
-            android:layout_marginLeft="@dimen/activity_horizontal_margin"
-            android:background="@drawable/gsb" />
+            android:layout_marginTop="78dp"
+            android:background="@drawable/gsb"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -27,18 +28,8 @@
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:textStyle="bold"
-            android:textSize="75px"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/Devs_Team"
-            android:layout_marginBottom="@dimen/Devs_Teams_size"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true">
-        </TextView>
-
-
+            android:textSize="75px"
+            android:id="@+id/textView" />
 
 
     </RelativeLayout>
